@@ -121,4 +121,3 @@ class C2SDataSet(Dataset):
             torch.tensor(path_length, dtype=torch.int64).to(self.device),\
             torch.tensor(end_mask, dtype=torch.float).to(self.device),\
             torch.tensor(target_mask, dtype=torch.float).to(self.device)
-
